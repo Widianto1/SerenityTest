@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="com.studentapp2.junit.studentsInfo.TagsTest" skipped="0" tests="3" time="10.39" timestamp="2018-01-21 03:51:31"><testcase classname="com.studentapp2.junit.studentsInfo.TagsTest" name="This test will provide an error code of 400 when user tries to access an invalid resource"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp2.junit.studentsInfo.TagsTest.incorrectResource(TagsTest.java:63)
+</system-err></testcase><testcase classname="com.studentapp2.junit.studentsInfo.TagsTest" name="Provide a 405 status code when incorrect HTTP method is used to access a resource"><failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp2.junit.studentsInfo.TagsTest.inValidMethod(TagsTest.java:25)
+</system-err></testcase><testcase classname="com.studentapp2.junit.studentsInfo.TagsTest" name="This test will verify if a status code of 200 is returned for GET request"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp2.junit.studentsInfo.TagsTest.verifyIftheStatusCodeIs200(TagsTest.java:45)
+</system-err></testcase></testsuite>
