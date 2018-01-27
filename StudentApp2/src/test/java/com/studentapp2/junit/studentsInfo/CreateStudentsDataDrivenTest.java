@@ -18,8 +18,8 @@ import net.thucydides.junit.annotations.UseTestDataFrom;
 
 //By default, Serenity will spin up 2 Thread per CPU Core!!!
 //@Concurrent
-//To define 4 Threads
-@Concurrent(threads="4x")
+//To define 2 Threads
+@Concurrent(threads="2x")
 //To tell where the test data from
 //Just provide the folder under the resources folder and the file name
 @UseTestDataFrom("testdata/studentinfo.csv")
